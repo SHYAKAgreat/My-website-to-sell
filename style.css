@@ -359,10 +359,10 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .css::before{
-    width: 40%;
+    width: 70%;
 }
 .skills-content .right .js::before{
     width: 30%;
@@ -373,8 +373,8 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 15%;
 }
-.skills-content .right .python::before{
-    width: 20%;
+.skills-content .right .py::before{
+    width: 10%;
 }
 .skills-content .right .boost::before{
     width: 40%;
