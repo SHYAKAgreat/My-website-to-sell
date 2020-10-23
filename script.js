@@ -52,18 +52,18 @@ $(document).ready(function(){
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
-        autoplayTimeOut:100,
+        autoplayTimeOut:200,
         autoplayHoverPause: true,
         responsive: {
             0:{
                 items: 1,
                 nav: false
             },
-            300:{
+            600:{
                 items: 2,
                 nav: false
             },
-            5000:{
+            1000:{
                 items: 3,
                 nav: false
             }
