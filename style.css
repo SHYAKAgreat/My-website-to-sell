@@ -382,9 +382,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "what i have done";
-    transform:translateX(-5%);
-
+    content: "wha i've done";
 }
 .teams .carousel .card{
     background: #222;
