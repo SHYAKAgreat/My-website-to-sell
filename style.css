@@ -383,7 +383,8 @@ section .title::after{
 /* teams section styling */
 .teams .title::after{
     content: "what i have done";
-    font-size:60%;
+    transform:translateY(5%);
+
 }
 .teams .carousel .card{
     background: #222;
