@@ -385,7 +385,7 @@ section .title::after{
     content: "wha i've done";
 }
 .proj{
-color:crimson;
+color:#fff;
 }
 .proj:hover{
 color:#fff;
