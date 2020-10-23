@@ -384,6 +384,12 @@ section .title::after{
 .teams .title::after{
     content: "wha i've done";
 }
+.proj{
+color:crimsom;
+}
+.proj:hover{
+color:#fff;
+}
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
