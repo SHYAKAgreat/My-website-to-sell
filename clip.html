@@ -36,33 +36,12 @@ width:100%;
 text-align:center;
 }
 </style>
-  
-  <script>
-  const image = document.getElementById('sec');
-
-image.zoom = 1;
-
-image.onwheel = function _image__onwheel( event ) {
-    event.preventDefault();
-    this[ e.deltaY < 0 ? 'onscrollforeward' : 'onscrollbackward' ]();
-};
-
-image.onscrollforeward = function _image__onscrollforeward( ) {
-    this.style.transform = `scale(${ ++this.zoom })`;
-};
-
-image.onscrollbackward = function _image__onscrollbackward( ) {
-    this.style.transform = `scale(${ --this.zoom })`;
-};
-  
-  </script>
-  
-<!--<script type="text/javascript">
+ <script type="text/javascript">
 var section=document.querySelector('section');
 window.addEventListener('scroll',function(){
 var value=window.scrollY;
 section.style.clipPath="circle("+value +"2.1px at center)";
 })
-</script>-->
+</script>
 </body>
 </html>
