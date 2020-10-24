@@ -319,9 +319,45 @@
     
     
     
-    <style>
-        
-    </style>
+   <style type="text/css">
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+margin-top:290px;
+}
+section{
+background-attachment:fixed;
+position:fixed;
+background:url('Aime.jpg');
+width:90%;
+height:890px;
+-webkit-clip-path:circle(0px at center);
+clip-path:circle(0px at center);
+  transition:1.9s ease;
+}
+.par{
+position:relative;
+top:1500px;
+background:#fff;
+padding:14px;
+width:100%;
+text-align:center;
+}
+</style>
+ 
+  <script type="text/javascript">
+var section=document.getElementById('sec');
+window.addEventListener('scroll',function(){
+var value=window.scrollY;
+section.style.clipPath="circle("+value +"2.1px at center)";
+})
+</script>  
+    
+    
+    
     
     
     
