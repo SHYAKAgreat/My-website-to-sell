@@ -374,10 +374,10 @@ section .title::after{
     width: 15%;
 }
 .skills-content .right .py::before{
-    width: 10%;
+    width:5%;
 }
 .skills-content .right .boost::before{
-    width: 40%;
+    width: 50%;
 }
 
 /* teams section styling */
