@@ -330,15 +330,17 @@
      
     </footer>
 
-     <script src="https://unpkg.com/scrollreveal@4"></script>
+     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
 
-    <script src="script.js"></script>
-    <script>
-    ScrollReveal().reveal('.home');
-    ScrollReveal().reveal('#skills');
-    ScrollReveal().reveal('#contact');
-    </script>
-    
+<script>
+
+// Changing the defaults
+window.sr = ScrollReveal({ reset: true });
+
+// Customizing a reveal set
+sr.reveal('.home', {opacity: 0,duration:3000});
+
+</script>
     
   <!-- <style type="text/css>
 #sec{
