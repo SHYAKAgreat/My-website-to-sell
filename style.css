@@ -10,19 +10,6 @@
 html{
     scroll-behavior: smooth;
 }
-/*Styling social icons*/
-
-  .social ul li.face fa:hover{
-	  background:#1877f2;
-	  }
-	  .social ul li.yout fa:hover{
-	  background:#ff0000;
-	  }
-	  .social ul li.twit fa:hover{
-	  background:#1da1f2;
-	  }
-	  .social ul li.insta fa:hover{
-	  background:#9c27b0;
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
