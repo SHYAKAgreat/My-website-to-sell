@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+<script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
 <!-- browser header's color-->
 <!-- Chrome, Firefox OS and Opera -->
 <meta name="theme-color" content="#dc143c">
@@ -312,7 +312,7 @@
                             <input type="text" placeholder="Subject" required>
                         </div>-->
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." name="message" required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." name="message" id="editor1"required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit" name="submit" >Send message</button>
@@ -427,6 +427,12 @@ sr.reveal('.contact', {opacity: 0,duration:1300});
 sr.reveal('.services', {opacity:0.4,duration:500});
 sr.reveal('.cont', {opacity:0,duration:5000});
 </script>
+
+<script>
+                // Replace the <textarea id="editor1"> with a CKEditor 4
+                // instance, using default configuration.
+                CKEDITOR.replace( 'editor1' );
+            </script>
     
   <!-- <style type="text/css>
 #sec{
