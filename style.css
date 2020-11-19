@@ -382,7 +382,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "wha i've done";
+    content: "what i've done";
 }
 .proj{
 color:#fff;
