@@ -451,7 +451,7 @@ color:#fff;
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "communicate";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
