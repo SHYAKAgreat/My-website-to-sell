@@ -359,19 +359,19 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 70%;
+    width: 80%;
 }
 .skills-content .right .css::before{
-    width: 70%;
+    width: 80%;
 }
 .skills-content .right .js::before{
-    width: 30%;
+    width: 60%;
 }
 .skills-content .right .php::before{
-    width: 15%;
+    width: 50%;
 }
 .skills-content .right .mysql::before{
-    width: 15%;
+    width: 50%;
 }
 .skills-content .right .py::before{
     width:5%;
