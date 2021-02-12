@@ -34,9 +34,9 @@
 .blockquote {
     position: relative;
     font-family: 'Barlow Condensed', sans-serif;
-   /* max-width: 620px;
-    margin: 80px auto;
-    align-self: center;*/
+    max-width: 620px;
+    
+    align-self: center;
 }
 
 /* Blockquote header */
@@ -67,7 +67,7 @@
     z-index: 3; 
 }
 
-/*.blockquote p:before {
+.blockquote p:before {
     content:"";
     position: absolute;
     width: 80px;
@@ -76,7 +76,7 @@
     left: 50px;
     z-index: 2;
 }
-*/
+
 /* increase header size after 600px */
 @media all and (min-width: 600px) {
     .blockquote h1 {
@@ -87,7 +87,7 @@
 }
 
 /* Blockquote subheader */
-.blockquote h4 {
+.blockquote h5 {
     position: relative;
     color: #ffffff;
     font-size: 1.3rem;
@@ -101,7 +101,7 @@
 }
 
  
-.blockquote h4:first-letter {
+.blockquote h5:first-letter {
   margin-left:-12px;
 }
 </style>
@@ -293,7 +293,7 @@
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
                     <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
                     <p class="mb-0 mt-2 font-italic">"Peaple dont care About what you say, They care about what you build"</p>
-                    <footer class="blockquote-footer pt-4 mt-4 border-top">MARK ZUCKERBERG</em></h4>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top"><h4>MARK ZUCKERBERG</em></h4>
                   </div>
                  </div>
 
