@@ -365,19 +365,19 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .js::before{
-    width: 60%;
+    width: 80%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 80%;
 }
 .skills-content .right .mysql::before{
-    width: 50%;
+    width: 80%;
 }
 .skills-content .right .py::before{
-    width:5%;
+    width:80%;
 }
 .skills-content .right .boost::before{
-    width: 70%;
+    width: 80%;
 }
 
 /* teams section styling */
